@@ -1,0 +1,10 @@
+Here are the files used for the actual simulation. These are intended to run on the Raspberry Pi 3B+ but me thinks there is also a development option to run on a computer. Not sure though as its been a while since i wrote the code.
+The main parts are:
+B_Simulation.py is the script to start manually.
+Automatic.py is the script to start automatically when booting the Raspberry.
+daten_basis.py this is the output of the configuration validation script from the other folder
+daten_mehr.py as above, but contains higher level data.
+c_* contain classes representing control panel items, like c_fahrstrasse.py for the routes. They also contain wrapper classes for the circuit boards used: IoPi for input, Adafruit TLC5947 for output.
+m_* contain modules
+
+Have fun!
