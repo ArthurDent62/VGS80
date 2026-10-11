@@ -1,0 +1,4 @@
+Before running the simulation, you have to configure it. All Parameters are stored within an Excel sheet.
+The script A_DatenPruefen.py is the main program to run against the VGS80_Daten.xlsx. It will check all dependencies and rules that apply to a well-formed configuration sheet.
+
+When running the script, it will provide you with a list of messages where the sheet is not well formed. If all goes well, the script will provide the configuration in pyhton notation. These are needed as input for the actual simulation script, contained within the other folder.
